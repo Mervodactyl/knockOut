@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset=UTF-8>
+      <title>KnockOut Practice Test</title>
+    </head>
+    <body>
+      <!-- // syntax: data-bind="bindingName: bindingValue" -->
+      <p>The day of the week is <span data-bind="text: dayOfWeek"></span>. It's time for <span data-bind="text: activity"></span></p>
+
+      <p>Day: <input data-bind="value: day" /></p>
+      <p>Month: <input data-bind="value: month" /></p>
+      <p>Year: <input data-bind="value: year" /></p>
+      <p>The current date is <span data-bind="text: fullDate"></span></p>
+
+      <p>Today is <span data-bind="text: daysOfWeek()[0]"></span></p>
+
+    <script type='text/javascript' src='jquery.js'></script>
+    <script type='text/javascript' src='download.js'></script>
+    <script type='text/javascript' src='appKO.js'></script>
+    </body>
+
+  </html>
